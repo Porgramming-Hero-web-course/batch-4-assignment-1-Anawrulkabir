@@ -42,5 +42,5 @@
     const result2 = removeDuplicates2([1, 2, 2, 3, 4, 4, 5]);
     console.log(result2); // [ 1, 2, 3, 4, 5 ]
     const result3 = removeDuplicates3([1, 2, 2, 3, 4, 4, 5]);
-    console.log(result3);
+    console.log(result3); // [ 1, 2, 3, 4, 5 ]
 }

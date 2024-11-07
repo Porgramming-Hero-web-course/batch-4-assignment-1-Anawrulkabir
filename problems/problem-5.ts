@@ -6,10 +6,7 @@ interface Person {
   phone?: `+880${number}`
 }
 
-const getProperty = <Person, information extends keyof Person>(
-  person: Person,
-  property: information
-) => {
+const getProperty = <X, Y extends keyof X>(person: X, property: Y) => {
   return person[property]
 }
 
@@ -19,6 +16,6 @@ const person: Person = {
   phone: '+88012345678',
 }
 
-console.log(getProperty(person, 'phone')) // +88012345678
+console.log(getProperty(person, 'name')) // +88012345678
 console.log(getProperty(person, 'name')) // Fahad
 console.log(getProperty(person, 'age')) // 24

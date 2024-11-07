@@ -8,6 +8,6 @@ const person = {
     age: 24,
     phone: '+88012345678',
 };
-console.log(getProperty(person, 'phone')); // +88012345678
+console.log(getProperty(person, 'name')); // +88012345678
 console.log(getProperty(person, 'name')); // Fahad
 console.log(getProperty(person, 'age')); // 24

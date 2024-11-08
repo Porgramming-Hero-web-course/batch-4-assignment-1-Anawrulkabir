@@ -1,5 +1,7 @@
 # The Significance of Union and Intersection Types in TypeScript
 
+![alt text](1_9n2pjVRYcNUGYzO3Pioh4w.png)
+
 TypeScript, a superset of JavaScript, introduces several powerful features to enhance the development experience. Among these features, union and intersection types stand out for their ability to create flexible and expressive type definitions.
 
 ## Union Types

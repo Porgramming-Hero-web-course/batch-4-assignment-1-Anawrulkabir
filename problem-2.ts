@@ -1,4 +1,4 @@
-// Problem 2 : Create a TypeScript function removeDuplicates that accepts an array of numbers and returns a new array with duplicates removed. Preserve the original order of elements.
+// Problem - 2 : Create a TypeScript function removeDuplicates that accepts an array of numbers and returns a new array with duplicates removed. Preserve the original order of elements.
 {
   //   number 1 method
   const removeDuplicates = (array: Array<number>): Array<number> => {
